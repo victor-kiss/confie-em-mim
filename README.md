@@ -1,0 +1,1 @@
+Esse é um site simples feito com HTML, CSS e JavaScript no qual o intuito é ajudar pessoas que estão desmotivadas ou tristes, além de treinar um pouco do design de sites experimentando novas técnicas e estilos.
