@@ -98,6 +98,9 @@ i.fa-heart{
 
 
 @media(max-width:576px){
+    div.container{
+        height: 100%;
+    }
     div.container h1{
         margin: 20px;
     }
