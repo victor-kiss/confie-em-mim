@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #161623;  
+    color: #fff;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #43C6AC;  
+    background: linear-gradient(to right, #191654, #43C6AC); 
+    clip-path: circle(20% at 10% 0%);
+    z-index: -1;
+}
+
+body::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #43C6AC;  
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC); 
+    background: linear-gradient(to right, #191654, #43C6AC); 
+    clip-path: circle(20% at 100% 10%);
+    z-index: -1;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width:100vw;
+    min-height: 100vh;
+}
+
+div.container h1{
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+div.container button{
+   width: 15em;
+   padding: 10px;
+   margin: 40px 0;
+   color: #fff;
+   border:none;
+   outline: none;
+   background-color: rgba(0,0,0,.6);
+   box-shadow: 2px 2px 10px #000;
+   backdrop-filter: blur(5px);
+   font-size: 1.1em;
+   border-radius: 10px;
+   text-align: center;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+footer.footer{
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(0,0,0,.7);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+i.fa-heart{
+    vertical-align: middle;
+    color: #c62828;
+}
+
+
+@media(max-width:576px){
+    div.container h1{
+        margin: 20px;
+    }
+    footer.footer{
+        font-size:1.05em;
+        padding: 10px;
+    }
+
+}
