@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apenas confie em mim...">
+    <meta name="author" content="Victor Kiss">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Confie em mim...</title>
+</head>
+<body>
+    <div class="container">
+            <h1>Apenas confie em mim e clique no botão...</h1>
+            <button type="button" class="button">:)</button>
+        <footer class="footer">
+            Desenvolvido com <i class="fa fa-heart"></i> por <a href="https://links-victor-kiss.vercel.app/" target="_blank" rel="noreferrer">Victor Kiss</a>
+        </footer>
+    </div>
+
+    <script>
+        const button = document.querySelector(".button")
+
+        button.addEventListener("click",()=>{
+            function modifyUrl(){
+               window.location.replace("./mensagem.html")
+            }
+            modifyUrl()
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/ba0a8d66ca.js" crossorigin="anonymous"></script>
+</body>
+</html>
