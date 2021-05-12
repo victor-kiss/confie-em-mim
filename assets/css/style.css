@@ -71,19 +71,6 @@ div.container button{
    letter-spacing: 1px;
 }
 
-footer.footer{
-    position: absolute;
-    bottom: 0;
-    background-color:rgba(0,0,0,.7);
-    backdrop-filter: blur(5px);
-    width: 100%;
-    text-align: center;
-    padding: 5px;
-    letter-spacing: 1px;
-    font-size: 1.1em;
-    color: #fff;
-}
-
 a{
     text-decoration: none;
     color: #fff;
@@ -104,9 +91,4 @@ i.fa-heart{
     div.container h1{
         margin: 20px;
     }
-    footer.footer{
-        font-size:1.05em;
-        padding: 10px;
-    }
-
 }
